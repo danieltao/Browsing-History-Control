@@ -1,0 +1,15 @@
+{
+  "name": "Clear History",
+  "version": "1.0",
+  "description": "Clear Browse History",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "history"
+  ],
+  "browser_action": {
+    "default_title": "Clear the browsing history",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
